@@ -24,7 +24,7 @@ nav:
   include button.html
   type="youtube"
   text="Youtube"
-  link="ielab3142"
+  link="@ielab3142"
 %}
 
 {% include section.html %}
