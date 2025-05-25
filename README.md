@@ -113,7 +113,7 @@ You will need to run `first-time-setup` in GitHub Actions for the very first dep
 
 Note: Currently I have disabled `.github/workflows/update-citations.yaml` in the workflows, need to uncomment the jobs in `.github/workflows/on-push.yaml`.
 
-Also, in `_config.yaml` change the related contents to AI Keys Lab, such as title, description, subtitle, etc.
+Also, in `_config.yaml` change the related contents to AI Keys Lab, such as title, description, subtitle, etc. Change your Lab Logo in `_includes/header.html` and `_includes/meta.html`.
 
 In `.github/workflows/first-time-setup.yaml`, change these to the correct contents:
 
