@@ -76,18 +76,19 @@ jobs:
       - name: Personalize Jekyll config for user
         uses: actions/github-script@v7
         with:
+        # Change to your own title, subtitle, description, email, github, twitter, youtube, below
           script: |
             const { readFileSync, writeFileSync } = require("fs");
             const file = "_config.yaml";
             const contents = readFileSync(file)
               .toString()
-              .replace(/(^title: ).*$/m, "$1{{ env.TITLE }}")
-              .replace(/(^subtitle: ).*$/m, "$1{{ env.SUBTITLE }}")
-              .replace(/(^description: ).*$/m, "$1${{ env.DESCRIPTION }}")
-              .replace(/(^  email: ).*$/m, "$1{{ env.LINKS.EMAIL }}")
-              .replace(/(^  github: ).*$/m, "$1{{ env.LINKS.GITHUB }}")
-              .replace(/(^  twitter: ).*$/m, "$1{{ env.LINKS.TWITTER }}")
-              .replace(/(^  youtube: ).*$/m, "$1{{ env.LINKS.YOUTUBE }}");
+              .replace(/(^title: ).*$/m, "$1The AI Keys Lab")
+              .replace(/(^subtitle: ).*$/m, "$1A subtitle for the lab")
+              .replace(/(^description: ).*$/m, "$1A description for the lab")
+              .replace(/(^  email: ).*$/m, "$1contact@your-lab.com")
+              .replace(/(^  github: ).*$/m, "$1ai-keys")
+              .replace(/(^  twitter: ).*$/m, "$1ai-keys")
+              .replace(/(^  youtube: ).*$/m, "$1ai-keys");
             writeFileSync(file, contents);
 
       - name: Commit changed files

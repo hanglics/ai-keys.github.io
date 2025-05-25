@@ -1,8 +1,8 @@
 # site properties and page defaults
-title: {{ env.TITLE }}
+title: The AI Keys Lab
 short_title: ai keys
-subtitle: {{ env.SUBTITLE }}
-description: 
+subtitle: A subtitle for the lab
+description: A description for the lab
 # Change to your own header and footer images in the images folder
 header: images/background.jpg
 footer: images/background.jpg
@@ -10,12 +10,12 @@ proofer: false
 
 # site social media and other links, change to your own handles, if don't have, comment out
 links:
-  email: {{ env.LINKS.EMAIL }}
+  email: contact@your-lab.com
   # orcid:
   # google-scholar:
-  github: {{ env.LINKS.GITHUB }}
-  twitter: {{ env.LINKS.TWITTER }}
-  youtube: {{ env.LINKS.YOUTUBE }}
+  github: ai-keys
+  twitter: ai-keys
+  youtube: aikeys
 
 ### jekyll settings
 
