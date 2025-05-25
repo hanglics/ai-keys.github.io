@@ -30,3 +30,7 @@ welcome to the README file of the AI Keys website. This file will get you set up
 - Make google scholar auto update publications work, currently based on source.yaml, have to crawl the data periodically outside the system. (And google scholar API has a 100 time limit each month)
 
 ## Website Address
+
+## Website Address
+
+Visit **[hangli.me/ai-keys.github.io](http://hangli.me/ai-keys.github.io)**
