@@ -1,20 +1,21 @@
 # site properties and page defaults
-title: The Information Engineering Lab
-short_title: ielab.io
-subtitle: IELab @ UQ | The University of Queensland
-description: The ielab is a collaborative group of researchers working in the area of information engineering. Much of this research is specifically on the areas of information retrieval, i.e. search engine technology and information seeking, data science, and health informatics.
+title: The AI Keys Lab
+short_title: ai.keys
+subtitle: Subtitle for AI Keys Lab
+description: A few sentence to describe the lab.
+# Change to your own header and footer images in the images folder
 header: images/background.jpg
 footer: images/background.jpg
 proofer: false
 
-# site social media and other links
+# site social media and other links, change to your own handles, if don't have, comment out
 links:
-  # email: contact@your-lab.com
-  # orcid: 
-  # google-scholar: 
-  github: ielab
-  twitter: ielabgroup
-  youtube: ielab3142
+  email: contact@your-lab.com
+  # orcid:
+  # google-scholar:
+  github: ai-keys
+  twitter: ai-keys
+  youtube: aikeys
 
 ### jekyll settings
 

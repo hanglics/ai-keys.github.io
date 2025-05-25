@@ -81,13 +81,13 @@ jobs:
             const file = "_config.yaml";
             const contents = readFileSync(file)
               .toString()
-              .replace(/(^title: ).*$/m, "$1The Information Engineering Lab")
-              .replace(/(^subtitle: ).*$/m, "$1IELab @ UQ | The University of Queensland")
+              .replace(/(^title: ).*$/m, "$1{{ env.TITLE }}")
+              .replace(/(^subtitle: ).*$/m, "$1{{ env.SUBTITLE }}")
               .replace(/(^description: ).*$/m, "$1${{ env.DESCRIPTION }}")
-              .replace(/(^  email: ).*$/m, "$1ielab@uq.edu.au")
-              .replace(/(^  github: ).*$/m, "$1ielab")
-              .replace(/(^  twitter: ).*$/m, "$1ielabgroup")
-              .replace(/(^  youtube: ).*$/m, "$1ielab3142");
+              .replace(/(^  email: ).*$/m, "$1{{ env.LINKS.EMAIL }}")
+              .replace(/(^  github: ).*$/m, "$1{{ env.LINKS.GITHUB }}")
+              .replace(/(^  twitter: ).*$/m, "$1{{ env.LINKS.TWITTER }}")
+              .replace(/(^  youtube: ).*$/m, "$1{{ env.LINKS.YOUTUBE }}");
             writeFileSync(file, contents);
 
       - name: Commit changed files
