@@ -1,10 +1,4 @@
-## Describe your changes
+This website is based on the Lab Website Template.
+See its documentation for working with this site:
 
-## Issue ticket number and link
-
-## Checklist before requesting a review
-- [ ] I have performed a self-review of my code.
-- [ ] If it is a core feature, I have added thorough tests.
-- [ ] Do not the main code of the website?
-- [ ] Followed the guide to update the page.
-- [ ] I have tested locally.
+https://greene-lab.gitbook.io/lab-website-template-docs
