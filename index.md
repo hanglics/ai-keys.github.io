@@ -1,7 +1,7 @@
 ---
 ---
 
-# The Information Engineering Lab
+# The AI Keys Group
 
 The ielab is a collaborative group of researchers working in the area of information engineering. Much of this research is specifically on the areas of [information retrieval](https://en.wikipedia.org/wiki/Information_retrieval), i.e. search engine technology and information seeking, data science, and health informatics.
 
